@@ -9,7 +9,7 @@ export const dateUtils = {
       | 'weekdayShort'
       | 'weekdayMonthShort'
       | 'weekdayFull'
-      | 'shortDayDate	'
+      | 'shortDayDate'
       | 'monthYear'
       | 'fullDate'
       | 'fullDateShort'
@@ -35,7 +35,7 @@ export const dateUtils = {
         return formatFns(dateObject, 'EEEE dd/MM', { locale });
       case 'weekdayFull':
         return formatFns(dateObject, "EEEE, dd 'de' MMMM", { locale });
-      case 'shortDayDate	':
+      case 'shortDayDate':
         return formatFns(dateObject, "EE, dd 'de' MMM", { locale });
       case 'monthYear':
         return formatFns(dateObject, 'MMMM yyyy', { locale });

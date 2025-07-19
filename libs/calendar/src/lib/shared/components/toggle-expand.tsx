@@ -1,3 +1,5 @@
+'use client';
+
 import { JSX, PropsWithChildren, useState } from 'react';
 
 import { IconChevronDown, IconChevronUp } from './icons';
